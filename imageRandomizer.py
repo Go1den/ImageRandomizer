@@ -16,7 +16,7 @@ try:
 
     if len(images) == 0:
         messagebox.showerror("Error", "No images found! Did you put any images in the images folder?")
-        exit(1)
+        sys.exit(1)
     random.shuffle(images)
     render = PhotoImage(file=path + images[index])
 
@@ -68,5 +68,5 @@ try:
 
     mainloop()
 except Exception as e:
-    messagebox.showerror("Error", "An unexpected error occurred. The program will close. Details:" + e)
-    exit(1)
+    messagebox.showerror("Error", "An unexpected error occurred. The program will close. Details: " + str(e))
+    sys.exit(1)
