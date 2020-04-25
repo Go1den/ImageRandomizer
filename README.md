@@ -9,4 +9,6 @@ This has only been tested with .png images. Other image types might work, but ar
 
 The window will resize to match the image, so if you want to have a consistent window size, make sure all images have the same width and height.
 
+Download it on my website: https://go1den.com/image-randomizer/
+
 This program is available for free, but if you find some use out of it, I'd always appreciate a subscription at twitch.tv/go1den! Thanks!
